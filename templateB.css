@@ -1,0 +1,47 @@
+.body-B {
+  background-color: rgba(242, 241, 151, 0.28);
+  width: 100%;
+  height: 100%;
+  transform: scale(0.85);
+  text-align: center;
+  border: 10px solid rgba(251, 220, 64, 0.67);
+  text-transform: capitalize;
+  font-family: "Kaushan Script", cursive;
+}
+.body-B:hover {
+  transform: scale(0.95);
+}
+.text-B {
+  font-size: 25px;
+  color: rgb(80, 80, 80);
+}
+.txt1 {
+  top: 1rem;
+  font-size: 60px;
+  color: rgb(250, 237, 0);
+  text-shadow: 0rem 0.25rem 0.3rem rgb(255, 184, 4);
+}
+.list-b {
+  margin-top: 1.5rem;
+}
+.img-b {
+  position: absolute;
+  display: flex;
+  column-gap: 37%;
+  width: 100%;
+  height: 30%;
+}
+
+.pic-b {
+  flex: 1;
+  border-radius: 10%;
+  margin: 1rem;
+}
+.pic-b:hover {
+  box-shadow: 0.5rem 1rem 1rem rgba(78, 169, 250, 0.541);
+}
+
+.conteiner {
+  position: relative;
+  top: 2rem;
+}

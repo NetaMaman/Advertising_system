@@ -1,0 +1,47 @@
+#body-A {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(243, 196, 115, 0.209);
+  transform: scale(0.85);
+  position: relative;
+  color: rgb(68, 63, 63);
+  text-align: center;
+  text-transform: capitalize;
+  border: 10px solid rgba(255, 144, 40, 0.735);
+}
+#body-A:hover {
+  transform: scale(0.95);
+}
+.text-A {
+  font-size: 50px;
+  font-family: "Square Peg";
+}
+.img-A {
+  position: absolute;
+  display: flex;
+  column-gap: 60%;
+  width: 100%;
+  height: 30%;
+  bottom: 2rem;
+}
+.pic-a {
+  flex: 1;
+  transform: scale(0.9);
+  border-radius: 20px;
+}
+
+.pic1-a:hover {
+  transform: scale(1);
+  border: 2px solid #fff;
+  box-shadow: 1rem 0.5rem 1.5rem rgb(255, 205, 106);
+}
+.pic2-a:hover {
+  transform: scale(1);
+  border: 2px solid #fff;
+  box-shadow: 1rem 0.5rem 1.5rem rgb(255, 205, 106);
+}
+.txt1-a {
+  font-size: 80px;
+  color: rgb(247, 151, 35);
+  text-shadow: 0rem 0.25rem 0.3rem rgb(250, 99, 34);
+}

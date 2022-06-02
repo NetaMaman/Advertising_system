@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "ajax": "^0.0.4",
+    "chalk": "^5.0.1",
+    "express": "^4.18.1",
+    "jquery": "^3.6.0",
+    "jsviews": "^1.0.11",
+    "nodemon": "^2.0.16"
+  },
+  "name": "adv-project",
+  "version": "1.0.0",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "maya koma, neta mamman, daniella mishan",
+  "license": "ISC",
+  "description": ""
+}

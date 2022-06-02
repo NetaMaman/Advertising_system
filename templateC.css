@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+.body-c {
+  position: relative;
+  box-sizing: border-box;
+  background-color: rgba(235, 224, 244, 0.469);
+  height: 100%;
+  width: 100%;
+  border: 10px solid rgb(3, 1, 123);
+  transform: scale(0.85);
+}
+.body-c:hover {
+  transform: scale(0.95);
+}
+.text-C {
+  position: relative;
+  left: 1rem;
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+  font-family: "Indie Flower", cursive;
+  margin-left: 1rem;
+}
+.txt1-C {
+  left: 0;
+}
+.img-C {
+  position: relative;
+  right: 0;
+  width: 100%;
+  height: 30%;
+  display: flex;
+  column-gap: 60%;
+  top: 2rem;
+}
+.pic-c {
+  flex: 1;
+  z-index: 10;
+  border-radius: 10px;
+  margin: 1rem;
+}
+
+.pic2-c:hover {
+  transform: scale(1.6);
+  z-index: 20;
+  border: 3px solid rgba(255, 255, 255, 0.602);
+  box-shadow: 1rem 0.5rem 1.5rem rgb(255, 205, 106);
+}
+
+.pic1-c:hover {
+  border: 3px solid rgb(255, 255, 255);
+  transform: scale(1.4);
+  z-index: 20;
+  box-shadow: 1rem 0.5rem 1.5rem rgb(247, 168, 112);
+}
+.h3-c {
+  top: 0rem;
+  font-size: 50px;
+  text-align: center;
+  color: rgba(19, 173, 255, 0.93);
+  text-transform: uppercase;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  letter-spacing: 7px;
+  text-shadow: 0rem 0.25rem 0.3rem rgb(83, 81, 236);
+}
+.txt10 {
+  left: 2rem;
+  top: 0.5rem;
+  margin-bottom: 1rem;
+}
